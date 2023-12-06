@@ -20,7 +20,7 @@ def upload_file(user, password):
 def main():
     # Check if the correct number of arguments are provided
     if len(sys.argv) != 3:
-        print("Usage: python your_script.py user password")
+        print("Command not found!")
 
     else:
         # Retrieve the parameters
